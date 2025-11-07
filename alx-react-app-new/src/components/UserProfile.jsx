@@ -10,7 +10,7 @@ function UserProfile({ name, age, bio }) {
         boxShadow: "0 1px 3px rgba(0,0,0,0.08)",
       }}
     >
-      <h2 style={{ color: "#2563eb", margin: "0 0 8px" }}>{name}</h2>
+      <h2 style={{ color: "blue", margin: "0 0 8px" }}>{name}</h2>
       <p style={{ margin: "0 0 6px" }}>
         Age: <span style={{ fontWeight: "bold", color: "#16a34a" }}>{age}</span>
       </p>
