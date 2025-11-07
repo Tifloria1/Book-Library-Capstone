@@ -9,10 +9,12 @@ function MainContent() {
       }}
     >
       <h3 style={{ color: "#111827", marginTop: 0 }}>Welcome!</h3>
+
+      <p>I love to visit New York, Paris, and Tokyo.</p>
+
       <p>
         This React app demonstrates <strong>inline CSS styling</strong> across
-        multiple components. Try tweaking values like <code>backgroundColor</code>,
-        <code>padding</code>, or <code>textAlign</code> to see instant changes.
+        multiple components.
       </p>
     </main>
   );
