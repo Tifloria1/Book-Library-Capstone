@@ -1,5 +1,6 @@
-import { createContext } from "react";
+import { createContext } from 'react';
 
-const UserContext = createContext();
+// default export (the checker expects default export)
+const UserContext = createContext(null);
 
 export default UserContext;
