@@ -74,7 +74,16 @@ function App() {
                 justifyContent: "center",
               }}
             >
-              IMAGE
+              {book.cover_i ? (
+  <img
+    src={`https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`}
+    alt={book.title}
+    style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 6 }}
+  />
+) : (
+  <span style={{ color: "#666" }}>No Image</span>
+)}
+
             </div>
             <h3>{book.title}</h3>
             <p>{book.author_name ? book.author_name[0] : "Unknown author"}</p>
